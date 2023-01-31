@@ -107,3 +107,18 @@ h1 {
     padding-right: 200px;
    
 }
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: 'Roboto';
+    color: #1f2937;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 230px;
+    padding-right: 230px;
+}
