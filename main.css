@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    padding-left: 200px;
+    align-items: center;
+    font-family: 'Roboto', 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #e5e7eb;
+    padding-right: 200px;
+}
