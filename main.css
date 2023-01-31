@@ -117,8 +117,51 @@ h1 {
     font-style: italic;
     font-family: 'Roboto';
     color: #1f2937;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 230px;
-    padding-right: 230px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 540px;
+    padding-right: 540px;
+}
+
+.last-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.box {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-family: 'Roboto';
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    border: 10px;
+    border-radius: 20px;
+
+}
+
+.section-text {
+    margin-right: 300px;
+    margin-bottom: 0px;
+    padding: 0px;
+
+}
+
+button {
+    
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 25px;
+    font-size: larger;
+    color: #f9faf8;
+    width: 200px;
+}
+
+.section-button {
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: #f9faf8;
 }
