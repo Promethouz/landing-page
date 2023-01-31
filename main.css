@@ -2,7 +2,9 @@ body {
     margin: 0;
     padding: 0;
 }
-
+li {
+    list-style: none;
+}
 .header {
     background-color: #1f2937;
     display: flex;
@@ -12,7 +14,7 @@ body {
 
 .logo {
     display: flex;
-    padding-left: 200px;
+    padding-left: 100px;
     align-items: center;
     font-family: 'Roboto', 'Courier New', Courier, monospace;
     font-size: 24px;
@@ -25,5 +27,83 @@ body {
     align-items: center;
     gap: 20px;
     color: #e5e7eb;
+    padding-right: 100px;
+    font-family: 'Roboto';
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Roboto';
+    padding-left: 100px;,
+    gap: 0px;
+    padding-bottom: 50px;
+
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-main {
+    list-style: none;
+    font-size: 48px;
+    font-weight: 800px;
+    color: #f9faf8;
+    width: 30%;
+    margin-bottom: 0px;
+
+}
+
+.hero-secondary {
+    list-style: none;
+    font-size: 18px;
+    color: #f9faf8;
+    width: 40%;
+
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.photo {
+
+    border: 5px solid;
+    border-color: #3882f6;
+    border-radius: 25px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin: 20px;
+}
+
+.photo-order {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 200px;
     padding-right: 200px;
+   
 }
