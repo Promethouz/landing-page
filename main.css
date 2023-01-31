@@ -165,3 +165,14 @@ button {
     border-radius: 10px;
     border-color: #f9faf8;
 }
+
+.f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    background-color: #1f2937;
+    margin-top: 50px;
+    color: #f9faf8;
+    padding-bottom: 4%;
+}
